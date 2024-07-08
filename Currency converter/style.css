@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+}
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Slight border radius */
+    background-image: linear-gradient(to bottom, #fff, #f7f7f7); /* Subtle gradient effect */
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray text color */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.amount {
+    margin-bottom: 20px;
+    background-color: #e0f7fa; /* Light cyan background */
+    padding: 10px;
+    border-radius: 5px; /* Slight border radius */
+}
+.amount p {
+    margin-bottom: 10px;
+    color: #00796b; /* Teal text color */
+}
+.amount input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+.dropdown {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #e0f2f1; /* Light teal background */
+    padding: 10px;
+    border-radius: 5px; /* Slight border radius */
+}
+.from, .to {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+.select-container {
+    position: relative;
+}
+.select-container img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.select-container select {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+.fa-arrow-right-arrow-left {
+    font-size: 24px;
+    margin: 0 20px;
+    color: #00796b; /* Teal text color */
+}
+.msg {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Dark gray text color */
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+button:hover {
+    background-color: #3e8e41; /* Darker green background on hover */
+}
